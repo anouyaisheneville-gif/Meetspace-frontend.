@@ -123,6 +123,14 @@ const App = () => {
           </button>
           <input value={roomId} onChange={(e) => setRoomId(e.target.value)} placeholder="Room ID" className="bg-white dark:bg-slate-800 p-5 rounded-[2rem] outline-none w-64 shadow-sm placeholder-slate-400 dark:placeholder-slate-500" />
         </div>
+        <footer className="mt-20 py-10 border-t border-gray-200 dark:border-white/5 opacity-40 text-[10px] tracking-widest uppercase font-bold">
+           <div className="flex justify-center gap-8 mb-4">
+              <a href="/terms" className="hover:text-blue-600 transition">Terms</a>
+              <a href="/privacy" className="hover:text-blue-600 transition">Privacy</a>
+              <a href="https://github.com/your-username" className="hover:text-blue-600 transition">GitHub</a>
+           </div>
+              <p>© 2026 MEETSPACE • BUILT FOR THE WORLD</p>
+        </footer>
       </main>
     </div>
   );
